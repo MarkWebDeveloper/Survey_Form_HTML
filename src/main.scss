@@ -1,0 +1,23 @@
+#survey_form {
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.form-control {
+    text-align: left;
+    padding-top: 25px;
+    margin: 0 25px 15px 25px;
+
+    input {
+        width: 100%;
+    }
+
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}

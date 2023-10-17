@@ -561,4 +561,41 @@ template {
   display: none;
 }
 
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(26, 180, 95);
+}
+
+header {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+#main_title {
+  font-size: 3em;
+}
+
+#survey_form {
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.form-control {
+  text-align: left;
+  padding-top: 25px;
+  margin: 0 25px 15px 25px;
+}
+.form-control input {
+  width: 100%;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
