@@ -15,9 +15,9 @@
         width: 100%;
     }
 
-}
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
 
-.form-control label {
-    display: block;
-    margin-bottom: 10px;
 }
