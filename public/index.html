@@ -15,32 +15,32 @@
         <form id="survey_form">
 
             <div class="form_control">
-                <label for="name" id="label-name">
+                <label for="name" class="label-name">
                     Name
                 </label>
 
-                <input type="text" class="field_input" placeholder="Enter your name" />
+                <input type="text" id="name" class="field_input" placeholder="Enter your name" />
             </div>
 
             <div class="form_control">
-                <label for="email" id="label-name">
+                <label for="email" class="label-name">
                     Email
                 </label>
 
-                <input type="text" class="field_input" placeholder="Enter your email" />
+                <input type="text" id="email" class="field_input" placeholder="Enter your email" />
             </div>
 
             <div class="form_control">
-                <label for="age" id="label-name">
+                <label for="age" class="label-name">
                     Age
                 </label>
 
-                <input type="text" class="field_input" placeholder="Enter your age" />
+                <input type="text" id="age" class="field_input" placeholder="Enter your age" />
             </div>
 
             <div class="form_control">
-                <label for="dropdown-title" id="label-name">Which best option describes you?</label>
-                    <select name="dropdown" id="select_dropdown">
+                <label for="dropdown-menu" class="label-name">Which best option describes you?</label>
+                    <select name="dropdown" id="dropdown-menu">
                         <option disabled selected value> -- select an option -- </option>
                         <option value="student">Student</option>
                         <option value="professional">Professional</option>
@@ -51,26 +51,26 @@
             </div>
 
             <div class="form_control">
-                <label for="radio-title" id="label-name">Would you recommend this site?</label>
+                <label class="label-name">Would you recommend this site?</label>
 
                     <div class="container">
-                <input type="radio" id="radio_button" name="recommend" value="yes">
-                <label for="radio-option-title" class="radio_name">Yes</label>
+                <input type="radio" id="radio_yes" name="recommend" value="yes">
+                <label for="radio_yes" class="radio_name">Yes</label>
                     </div>
 
                     <div class="container">
-                <input type="radio" id="radio_button" name="recommend" value="no">
-                <label for="radio-option-title" class="radio_name">No</label>
+                <input type="radio" id="radio_no" name="recommend" value="no">
+                <label for="radio_no" class="radio_name">No</label>
                     </div>
 
                     <div class="container">
-                <input type="radio" id="radio_button" name="recommend" value="maybe">
-                <label for="radio-option-title" class="radio_name">Maybe</label>
+                <input type="radio" id="radio_maybe" name="recommend" value="maybe">
+                <label for="radio_maybe" class="radio_name">Maybe</label>
                     </div>
             </div>
 
             <div class="form_control">
-                <label for="checkbox-title" id="label-name">Languages and Frameworks known</label>
+                <label for="checkbox-title" class="label-name">Languages and Frameworks known</label>
 
                 <div class="container">
                     <input type="checkbox" id="checkbox1" name="checkbox1" value="html">
@@ -112,6 +112,11 @@
                     <label for="checkbox8">Vue</label>
                 </div>
 
+            </div>
+
+            <div class="form_control">
+                <label for="text_box" class="label-name">Any comments or suggestions</label>
+                <input type="text" id="text_box" name="text">
             </div>
 
         </form>

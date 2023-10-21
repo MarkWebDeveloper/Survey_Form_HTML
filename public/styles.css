@@ -592,13 +592,18 @@ header {
 .form_control .field_input {
   width: 100%;
 }
-.form_control #label-name {
+.form_control .label-name {
   display: block;
   margin-bottom: 10px;
 }
 
 .container {
   margin-bottom: 5px;
+}
+
+#text_box {
+  width: 100%;
+  height: 5em;
 }
 
 /*# sourceMappingURL=styles.css.map */
