@@ -6,18 +6,22 @@
     padding-bottom: 25px;
 }
 
-.form-control {
+.form_control {
     text-align: left;
     padding-top: 25px;
     margin: 0 25px 15px 25px;
 
-    input {
+    .field_input {
         width: 100%;
+    }
+
+    #label-name {
+        display: block;
+        margin-bottom: 10px;
     }
 
 }
 
-.form-control label {
-    display: block;
-    margin-bottom: 10px;
+.radio_container {
+    margin-bottom: 5px;
 }

@@ -14,29 +14,58 @@
     <main>
         <form id="survey_form">
 
-            <div class="form-control">
+            <div class="form_control">
                 <label for="name" id="label-name">
                     Name
                 </label>
 
-                <input type="text" id="name" placeholder="Enter your name" />
+                <input type="text" class="field_input" placeholder="Enter your name" />
             </div>
 
-            <div class="form-control">
+            <div class="form_control">
                 <label for="email" id="label-name">
                     Email
                 </label>
 
-                <input type="text" id="email" placeholder="Enter your email" />
+                <input type="text" class="field_input" placeholder="Enter your email" />
             </div>
 
-            <div class="form-control">
+            <div class="form_control">
                 <label for="age" id="label-name">
                     Age
                 </label>
 
-                <input type="text" id="age" placeholder="Enter your age" />
+                <input type="text" class="field_input" placeholder="Enter your age" />
             </div>
+
+            <div class="form_control">
+                <label for="dropdown-title" id="label-name">Which best option describes you?</label>
+                    <select name="dropdown" id="select_dropdown">
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="student">Student</option>
+                        <option value="professional">Professional</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="animal">Domestic animal</option>
+                        <option value="other">Other</option>
+                    </select>
+            </div>
+
+            <div class="form_control">
+                <label for="radio-title" id="label-name">Would you recommend this site?</label>
+                    <div class="radio_container">
+                <input type="radio" id="radio_button" name="recommend" value="yes">
+                <label for="radio-option-title" id="radio_name">Yes</label>
+                    </div>
+                    <div class="radio_container">
+                <input type="radio" id="radio_button" name="recommend" value="no">
+                <label for="radio-option-title" id="radio_name">No</label>
+                    </div>
+                    <div class="radio_container">
+                <input type="radio" id="radio_button" name="recommend" value="maybe">
+                <label for="radio-option-title" id="radio_name">Maybe</label>
+                    </div>
+            </div>
+
         </form>
     </main>
 </body>

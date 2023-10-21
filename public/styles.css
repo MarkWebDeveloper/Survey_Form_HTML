@@ -584,18 +584,21 @@ header {
   padding-bottom: 25px;
 }
 
-.form-control {
+.form_control {
   text-align: left;
   padding-top: 25px;
   margin: 0 25px 15px 25px;
 }
-.form-control input {
+.form_control .field_input {
   width: 100%;
 }
-
-.form-control label {
+.form_control #label-name {
   display: block;
   margin-bottom: 10px;
+}
+
+.radio_container {
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
