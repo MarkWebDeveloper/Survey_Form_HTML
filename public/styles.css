@@ -589,10 +589,12 @@ header {
   padding-top: 25px;
   margin: 0 25px 15px 25px;
 }
-.form_control .field_input {
+
+.field_input {
   width: 100%;
 }
-.form_control .label-name {
+
+.label-name {
   display: block;
   margin-bottom: 10px;
 }
@@ -604,6 +606,8 @@ header {
 #text_box {
   width: 100%;
   height: 5em;
+  line-height: 1em;
+  text-wrap: wrap;
 }
 
 #submit_button {
