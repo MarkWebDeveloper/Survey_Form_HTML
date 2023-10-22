@@ -15,7 +15,13 @@ formData.addEventListener("submit", (e) => {
       } else {
         alert("This form has been successfully submitted!");
         console.log(
-          `This form's data is:  Name: ${name.value}, Email: ${email.value}, Age: ${age.value}, Description: ${description.value}, Recommend: ${document.querySelector('input[name="recommend"]:checked').value}, Comment: ${comment.value}`
+`This form's data is:  
+Name: ${name.value}
+Email: ${email.value}
+Age: ${age.value}
+Description: ${description.value}
+Recommend: ${document.querySelector('input[name="recommend"]:checked').value}
+Comment: ${comment.value}`
         );
     
         name.value = "";
