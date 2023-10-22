@@ -12,7 +12,7 @@
     </header>
 
     <main>
-        <form id="survey_form">
+        <form action="" id="survey_form">
 
             <div class="form_control">
                 <label for="name" class="label-name">
@@ -73,42 +73,42 @@
                 <label for="checkbox-title" class="label-name">Languages and Frameworks known</label>
 
                 <div class="container">
-                    <input type="checkbox" id="checkbox1" name="checkbox1" value="html">
+                    <input type="checkbox" id="checkbox1" name="checkbox" value="html">
                     <label for="checkbox1">HTML</label>
                 </div>
 
                 <div class="container">
-                    <input type="checkbox" id="checkbox2" name="checkbox2" value="css">
+                    <input type="checkbox" id="checkbox2" name="checkbox" value="css">
                     <label for="checkbox2">CSS</label>
                 </div>
 
                 <div class="container">
-                    <input type="checkbox" id="checkbox3" name="checkbox3" value="javascript">
+                    <input type="checkbox" id="checkbox3" name="checkbox" value="javascript">
                     <label for="checkbox3">JavaScript</label>
                 </div>
 
                 <div class="container">
-                    <input type="checkbox" id="checkbox4" name="checkbox4" value="python">
+                    <input type="checkbox" id="checkbox4" name="checkbox" value="python">
                     <label for="checkbox4">Python</label>
                 </div>
 
                 <div class="container">
-                    <input type="checkbox" id="checkbox5" name="checkbox5" value="java">
+                    <input type="checkbox" id="checkbox5" name="checkbox" value="java">
                     <label for="checkbox5">Java</label>
                 </div>
 
                 <div class="container">
-                    <input type="checkbox" id="checkbox6" name="checkbox6" value="react">
+                    <input type="checkbox" id="checkbox6" name="checkbox" value="react">
                     <label for="checkbox6">React</label>
                 </div>
 
                 <div class="container">
-                    <input type="checkbox" id="checkbox7" name="checkbox7" value="angular">
+                    <input type="checkbox" id="checkbox7" name="checkbox" value="angular">
                     <label for="checkbox7">Angular</label>
                 </div>
 
                 <div class="container">
-                    <input type="checkbox" id="checkbox8" name="checkbox8" value="vue">
+                    <input type="checkbox" id="checkbox8" name="checkbox" value="vue">
                     <label for="checkbox8">Vue</label>
                 </div>
 
@@ -116,10 +116,15 @@
 
             <div class="form_control">
                 <label for="text_box" class="label-name">Any comments or suggestions</label>
-                <input type="text" id="text_box" name="text">
+                <textarea id="text_box" name="text"></textarea>
             </div>
+
+            <div class="form_control">
+                <button type="submit" id="submit_button">Submit</button>
+             </div>
 
         </form>
     </main>
+    <script src="./app.js"></script>
 </body>
 </html>
